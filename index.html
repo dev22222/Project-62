@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <ul class="ul">
+        <li><a href="#home"><b>Home</b></a></li>
+        <li><a href="#grid"><b>Grid</b></a></li>
+        <li><a href="#slide"><b>Slide</b></a></li>
+    </ul>
+    <section id="home">
+        <hr class="hr">
+        <h1>Flowers Image Gallery</h1>
+        <hr>
+        <div>
+            <img class="welcome" src="flowers.gif">
+        </div>
+
+    </section>
+    <section id="grid">
+        <hr>
+        <h1>Photos Grid</h1>
+        <hr>
+        <br>
+        <div class="div_grid">
+            <span>
+                <img class="img_grid" src="blue.jpg">
+                <img class="img_grid" src="yellow.jpg">
+                <img class="img_grid" src="Orange.png">
+                <img class="img_grid" src="purple.jpg">
+            </span>
+            <br>
+            <br>
+            <span>
+                <img class="img_grid" class="img_grid" src="Pink%20tulip.jpg">
+                <img class="img_grid" src="violet.jpg">
+                <img class="img_grid" src="White.jpg">
+                <img class="img_grid" src="Red%20rose.jpg">
+            </span>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section id="slide">
+        <hr>
+        <h1>Images Slide</h1>
+        <hr>
+        <br>
+        <span class="slide_span">
+            <button type="button" onclick="leftslide()">⬅</button>
+            
+            <img id="img_slide" src="blue.jpg">
+            
+            <button type="button" onclick="rigthslide()">➡</button>
+        </span>
+    </section>
+</body></html>
